@@ -1,0 +1,118 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .Lbox {
+      background-color: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 100%;
+      max-width: 800px;
+      height: 300px;
+    }
+    
+    .box h1 {
+      color: black;
+      font-size: 40px;
+    }
+    
+    .box p {
+      color: #333;
+      margin-bottom: 20px;
+      font-size: 20px;
+    }
+    
+    .button-group {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .logout-button {
+      padding: 10px 50px;
+      border-radius: 5px;
+      margin: 30px 40px;
+      cursor: pointer;
+      font-size: 18px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    
+    .yes-button {
+      background-color: #e74c3c;
+      color: white;
+    }
+    
+    .no-button {
+      background-color: #3498db;
+      color: white;
+    }
+    .logout-button:hover {
+      opacity: 0.6; 
+    }
+    
+  
+  
+  .box {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    height: 300px;
+  }
+  
+  .Lbox h1 {
+    color: black;
+    font-size: 40px;
+  }
+  
+  .Lbox p {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logout-button {
+    padding: 10px 50px;
+    border-radius: 5px;
+    margin: 30px 40px;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .yes-button {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .no-button {
+    background-color: #3498db;
+    color: white;
+  }
+
+  .logout-button:hover {
+    opacity: 0.6; 
+  }
+  

@@ -1,0 +1,117 @@
+
+.user-profile {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile-details {
+  margin-top: 60px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5%;
+}
+
+input {
+  margin-top: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.edit-save {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.edit-button,
+.save-button {
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.save-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+}
+
+.profile-title {
+  font-size: 24px;
+  font-size: max(18px, 4vw);
+  color: black;
+  font-weight: bold;
+  margin-left: 5%;
+}
+
+.user-profile-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.profile-details {
+width: 60%; /* Adjust the width as needed */
+}
+
+.details {
+display: flex;
+flex-direction: column;
+}
+
+label {
+margin-bottom: 10px;
+}
+
+input {
+margin-top: 5px;
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 5px;
+width: 100%;
+}
+
+.edit-save {
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+}
+
+.edit-button,
+.save-button {
+padding: 10px;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.edit-button {
+background-color: #007bff;
+color: #fff;
+border: none;
+}
+
+.save-button {
+background-color: #28a745;
+color: #fff;
+border: none;
+}
+
+/* Additional styles for the new title */
+.profile-title {
+font-size: 24px;
+margin-bottom: 20px;
+}

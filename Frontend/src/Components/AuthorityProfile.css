@@ -1,0 +1,73 @@
+/* AuthorityProfile.css */
+.user-profile {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile-details {
+  width: 60%;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  margin-top: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.edit-save {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.edit-button,
+.save-button,
+.complaint-history-button {
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: calc(100% - 16px);
+  max-width: calc(100% - 16px);
+}
+
+.edit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.save-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+}
+
+.complaint-history-button {
+  background-color: #90353a;
+  color: #fff;
+  border: none;
+}
+
+.profile-title {
+  font-size: max(18px, 4vw);
+  margin-bottom: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.authority-profile-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}

@@ -1,0 +1,28 @@
+h1 {
+  font-size: 24px;
+  color: #000000; /* Black */
+  text-align: center;
+}
+
+.faq-entry {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  color: #000000; /* Black */
+}
+
+.container{
+  text-align: center;
+  padding: 80px;
+  background: rgba(166, 123, 123, 0.3);
+  backdrop-filter: blur(30px);
+  border-radius: 15px;
+}
+
+title h1{
+  font-size: 800px;
+  color: #000000; /* Black */
+  text-align: center;
+}

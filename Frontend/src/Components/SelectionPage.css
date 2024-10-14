@@ -1,0 +1,100 @@
+.glass-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100hv;
+    flex-grow: 1;
+    margin-top: 3%;
+}
+
+.content-container {
+    text-align: center;
+    padding: 80px;
+    background: rgba(166, 123, 123, 0.3);
+    backdrop-filter: blur(30px);
+    border-radius: 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -30px;
+}
+
+h1 {
+    color: #e6e4f3;
+}
+
+.btn-Selection-page,
+.btn1 {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: hwb(211 51% 27%);
+    width: 200px;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #120454;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
+.btn1:hover,
+.btn1:focus,
+.btn1:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
+.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+}
+
+.close-icon:hover {
+    color: #555;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: 1.5em;
+    font-size: 1.5em;
+    color: #585884;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+.back-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    align-items: center;
+  }
+  
+  .back-icon svg {
+    margin-right: 5px;
+  }

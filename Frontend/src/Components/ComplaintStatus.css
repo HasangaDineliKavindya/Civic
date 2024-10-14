@@ -1,0 +1,172 @@
+.complaint-history-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.complaintHistory {
+  width: 1200px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-left: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 2%;
+  margin-left: 1%;
+}
+
+.complaints-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.complaints-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.blurred-box {
+  width: 80%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  overflow: auto;
+}
+
+.outlined-para {
+  text-align: center;
+  border: 2px solid #ccc;
+  padding: 100px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.seeComplaints {
+  text-align: right;
+  text-decoration: underline;
+  margin-right: 30px;
+  color: blue;
+}
+
+.complaint-fields {
+  display: flex;
+  justify-content: space-between;
+}
+
+.complaint-field {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.complaint-field p {
+  margin: 0;
+  padding: 0;
+  color: rgb(69, 67, 67);
+  font-size: 16px;
+}
+
+.complaint-field p.upper {
+  width: 450px;
+}
+
+.delete-accounts-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.delete-accounts {
+  width: 1200px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-left: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 2%;
+}
+
+.delete-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.delete-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Dblurred-box {
+  width: 80%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  overflow: auto;
+}
+
+.Doutlined-para {
+  text-align: center;
+  border: 2px solid #ccc;
+  padding: 100px;
+  border-radius: 8px;
+}
+.outlined-paragraph {
+  text-align: center;
+  border: 2px solid #ccc; /* Add border to create an outline */
+  padding: 10px; /* Add padding to separate the text from the border */
+  border-radius: 8px; /* Optional: Add border radius for rounded corners */
+}
+
+.complaints-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.complaints-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.blurred-box {
+  width: 80%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  overflow: auto;
+}
+
+.outlined-para {
+  text-align: center;
+  border: 2px solid #ccc; /* Add border to create an outline */
+  padding: 100px; /* Increase padding to make the box larger */
+  border-radius: 8px; /* Optional: Add border radius for rounded corners */
+  font-size: 18px;
+}
+
+.delete-table {
+  border-collapse: collapse; /* Change 'initial' to 'collapse' */
+  width: 100%;
+  border: 2px solid #000000;
+}
+
+.delete-table th,
+.delete-table td {
+  border: 1px solid #000000; /* Change border style for table cells */
+  text-align: left;
+  padding: 8px;
+}
+
+.delete-table th {
+  background-color: #f2f2f2;
+  font-size: larger;
+}

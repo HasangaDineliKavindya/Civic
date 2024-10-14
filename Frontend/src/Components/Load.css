@@ -1,0 +1,62 @@
+
+.description{
+    display: flex;
+    justify-content: center;
+}
+
+.description textarea{
+    width: 100%;
+    margin: 1% 10%;
+    border-radius: 10px;
+    resize: vertical;
+    font-size: 16px;
+    font-style: italic;
+    opacity: 50%;
+
+}
+
+
+.Preview-image {
+    margin: 20px;
+    text-align: center;
+    
+}
+
+.load {
+    margin: 20px;
+    text-align: center;
+}
+
+textarea {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.load-btn {
+    margin-top: 10px;
+    margin-left: 650px;
+}
+
+.load-btn button {
+   
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: blueviolet; /* Set your desired button color */
+    color: white;
+    cursor: pointer;
+    
+}
+
+.load-btn button:hover {
+    background-color: black; /* Set your desired button color on hover */
+    
+}
+
+/* Add more styles as needed */

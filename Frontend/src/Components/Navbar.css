@@ -1,0 +1,42 @@
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #6daffa, #34495e);
+  display: flex;
+  justify-content: flex-start;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* .navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #1D5B79;
+    background-color: #153763; 
+  display: flex;  Ensures the items are displayed in a row 
+  justify-content: flex-start;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+.navbar a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #7d92f2;
+  color: black;
+}
+
+.navbar-link-container{
+    margin-left: auto;
+}
+
+.navbar-logo-container img{
+  max-width: 42px;
+}

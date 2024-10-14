@@ -1,0 +1,123 @@
+/* Login.css */
+/* Login.css */
+
+  
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image:  url(/src/Images/Road1.jpeg); /* Add the path to your background image */
+    background-size: cover;
+    backdrop-filter: blur(5px); /* Adjust the blur amount as needed */
+  }
+
+  
+  .login-form {
+
+    font-family: 'YourChosenFont', sans-serif;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background to the form */
+    position: relative;
+  }
+  
+
+/* .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .login-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  } */
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-family: 'YourChosenFont', sans-serif;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .input-group input{
+    font-family: 'YourChosenFont', sans-serif;
+    width: 385px; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .remember-me {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+   
+  }
+  
+  
+  
+  /* Style the label for the checkbox */
+  .remember-me label {
+    margin-bottom: 0; /* Remove the bottom margin for the label */
+  }
+  
+  .login-button {
+    
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 400px;
+    image-rendering: auto;
+  }
+ 
+  .login-button:hover{
+    background-color:black ;
+  }
+  
+  .additional-options {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+ 
+
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color:black;
+    font-size: 18px;
+  }
+ 
+
+  
+  

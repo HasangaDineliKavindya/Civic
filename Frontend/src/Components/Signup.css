@@ -1,0 +1,48 @@
+/* Keep the original styles */
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjusted to 100vh for better responsiveness */
+}
+
+.form_container {
+  padding: 20px 5%; /* Adjusted padding for better spacing */
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(30px);
+  width: 80%; /* Adjusted width for responsiveness */
+  max-width: 400px; /* Added max-width for smaller screens */
+  position: relative;
+  margin: 20px auto; /* Centered the form horizontally */
+  border-radius: 15px;
+}
+
+/* Add media queries for responsiveness */
+
+@media only screen and (min-width: 768px) {
+  .form_container {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .form_container {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .form_container {
+    width: 30%;
+  }
+}
+
+.title_container {
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: black;
+  margin-bottom: 20px; /* Added margin for better spacing */
+}
